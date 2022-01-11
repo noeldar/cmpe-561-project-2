@@ -1,0 +1,93 @@
+#text = Dün arkadaşıma bir hediye aldım.
+Adv	dün	[dün:Noun,Time] dün:Noun+A3sg
+Noun	arkadaşıma	[arkadaş:Noun] arkadaş:Noun+A3sg+ım:P1sg+a:Dat
+Det	bir	[bir:Det] bir:Det
+Noun	hediye	[hediye:Noun] hediye:Noun+A3sg
+Verb	aldım	[almak:Verb] al:Verb+dı:Past+m:A1sg
+Punc	.	[.:Punc] .:Punc
+#text = Tarihi romanları keyifle okuyorum.
+Adj	tarihi	[tarih:Adj] tarih:Adj
+Noun	romanları	[roman:Noun] roman:Noun+lar:A3pl+ı:P3sg
+Noun	keyifle	[keyif:Noun] keyif:Noun+A3sg+le:Ins
+Verb	okuyorum	[okumak:Verb] ok:Verb+uyor:Prog1+um:A1sg
+Punc	.	[.:Punc] .:Punc
+#text = Ben dün akşam yemeği için anneme yardım ettim.
+Pron	ben	[ben:Pron,Pers] ben:Pron+A1sg
+Adv	dün	[dün:Noun,Time] dün:Noun+A3sg
+Noun	akşam	[akşam:Noun,Time] akşam:Noun+A3sg
+Noun	yemeği	[yemek:Noun] yemeğ:Noun+A3sg+i:P3sg
+Postp	için	[için:Postp,PCNom] için:Postp
+Noun	anneme	[anne:Noun] anne:Noun+A3sg+m:P1sg+e:Dat
+Noun	yardım	[yardım:Noun] yardım:Noun+A3sg
+Verb	ettim	[etmek:Verb] et:Verb+ti:Past+m:A1sg
+Punc	.	[.:Punc] .:Punc
+#text = Destanlar milli kültürümüzü ve tarihimizi anlatır.
+Noun	destanlar	[destan:Noun] destan:Noun+lar:A3pl
+Adj	milli	[millî:Adj] milli:Adj
+Noun	kültürümüzü	[kültür:Noun] kültür:Noun+A3sg+ümüz:P1pl+ü:Acc
+Conj	ve	[ve:Conj] ve:Conj
+Noun	tarihimizi	[tarih:Noun] tarih:Noun+A3sg+imiz:P1pl+i:Acc
+Verb	anlatır	[anlamak:Verb] anla:Verb|t:Caus→Verb+ır:Aor+A3sg
+Punc	.	[.:Punc] .:Punc
+#text = Yaz meyvelerinden karpuz bence en güzel meyvedir.
+Noun	yaz	[yaz:Noun,Time] yaz:Noun+A3sg
+Noun	meyvelerinden	[meyve:Noun] meyve:Noun+ler:A3pl+i:P3sg+nden:Abl
+Noun	karpuz	[karpuz:Noun] karpuz:Noun+A3sg
+Pron	bence	[ben:Pron,Pers] ben:Pron+A1sg+ce:Equ
+Adv	en	[en:Adv] en:Adv
+Adj	güzel	[güzel:Adj] güzel:Adj
+Verb	meyvedir	[meyve:Noun] meyve:Noun+A3sg|Zero→Verb+Pres+A3sg+dir:Cop
+Punc	.	[.:Punc] .:Punc
+#text = Bu akşamki toplantıya katılacak mısınız?
+Det	bu	[bu:Det] bu:Det
+Adj	akşamki	[akşam:Noun,Time] akşam:Noun+A3sg|ki:Rel→Adj
+Noun	toplantıya	[toplantı:Noun] toplantı:Noun+A3sg+ya:Dat
+Verb	katılacak	[katılmak:Verb] katıl:Verb+acak:Fut+A3sg
+Ques	mısınız	[mı:Ques] mı:Ques+Pres+sınız:A2pl
+Punc	?	[?:Punc] ?:Punc
+#text = Bu ağacın altında her gece mehtabı izlerdik.
+Det	bu	[bu:Det] bu:Det
+Noun	ağacın	[ağaç:Noun] ağac:Noun+A3sg+ın:Gen
+Noun	altında	[alt:Noun] alt:Noun+A3sg+ı:P3sg+nda:Loc
+Det	her	[her:Det] her:Det
+Noun	gece	[gece:Noun,Time] gece:Noun+A3sg
+Noun	mehtabı	[mehtap:Noun] mehtab:Noun+A3sg+ı:P3sg
+Verb	izlerdik	[izlemek:Verb] izle:Verb+r:Aor+di:Past+k:A1pl
+Punc	.	[.:Punc] .:Punc
+#text = Siz buraya en son ne zaman geldiniz?
+Pron	siz	[siz:Pron,Pers] siz:Pron+A2pl
+Noun	buraya	[bura:Noun] bura:Noun+A3sg+ya:Dat
+Adv	en	[en:Adv] en:Adv
+Noun	son	[son:Noun] son:Noun+A3sg
+Adj	ne	[ne:Adj] ne:Adj
+Noun	zaman	[zaman:Noun,Time] zaman:Noun+A3sg
+Verb	geldiniz	[gelmek:Verb] gel:Verb+di:Past+niz:A2pl
+Punc	?	[?:Punc] ?:Punc
+#text = Anadolu’nun dört yanı medeniyetin beşiğidir.
+Noun	anadolunun	[Anadolu:Noun,Prop] anadolu:Noun+A3sg+nun:Gen
+Num	dört	[dört:Num,Card] dört:Num
+Noun	yanı	[yan:Noun] yan:Noun+A3sg+ı:Acc
+Noun	medeniyetin	[medeniyet:Noun] medeniyet:Noun+A3sg+in:Gen
+Verb	beşiğidir	[beşik:Noun] beşiğ:Noun+A3sg+i:P3sg|Zero→Verb+Pres+A3sg+dir:Cop
+Punc	.	[.:Punc] .:Punc
+#text = Orhun Abideleri Türkçenin ilk yazılı örnekleridir.
+Noun	orhun	[Orhun:Noun,Prop] orhun:Noun+A3sg
+Noun	abideleri	[abide:Noun] abide:Noun+ler:A3pl+i:P3sg
+Noun	türkçenin	[Türkçe:Noun,Prop] türkçe:Noun+A3sg+nin:Gen
+Adj	ilk	[ilk:Adj] ilk:Adj
+Adj	yazılı	[yazılı:Noun] yazılı:Noun+A3sg
+Verb	örnekleridir	[örnek:Noun] örnek:Noun+ler:A3pl+i:P3sg|Zero→Verb+Pres+A3sg+dir:Cop
+Punc	.	[.:Punc] .:Punc
+#text = Okul bizim köye epeyce uzaktaydı.
+Noun	okul	[okul:Noun] okul:Noun+A3sg
+Pron	bizim	[biz:Pron,Pers] biz:Pron+A1pl+im:Gen
+Noun	köye	[Kö:Noun,Abbrv] kö:Noun+A3sg+ye:Dat
+Adv	epeyce	[epeyce:Adv] epeyce:Adv
+Verb	uzaktaydı	[uzak:Noun] uzak:Noun+A3sg+ta:Loc|Zero→Verb+ydı:Past+A3sg
+Punc	.	[.:Punc] .:Punc
+#text = Yüksek sesle müzik dinleme.
+Adj	yüksek	[yüksek:Adj] yüksek:Adj
+Noun	sesle	[ses:Noun] ses:Noun+A3sg+le:Ins
+Noun	müzik	[müzik:Noun] müzik:Noun+A3sg
+Verb	dinleme	[dinlemek:Verb] dinle:Verb+me:Neg+Imp+A2sg
+Punc	.	[.:Punc] .:Punc

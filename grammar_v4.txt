@@ -1,0 +1,241 @@
+S -> ADV NP VP
+S -> ADV0 NP VPAST
+S -> ADJP VP
+S -> ADJP VPAST
+S -> ADJP VP QUES
+S -> ADJP VPAST QUES
+S -> PP ADJP VP
+S -> PP ADJP VPAST
+S -> PRON0 VP0
+S -> PRON0 VP0PAST
+S -> PRON4 VP3
+S -> PRON4 VP3PAST
+S -> N4 VP4
+S -> NP1 VP5
+S -> NP1 VP5PAST
+VP5 -> N5 VP5
+VP5 -> NP VP5
+VP5 -> PRON9 VP5
+VP5 -> ADV VP5
+VP5 -> ADJP VP5
+VP5 -> V29
+VP5 -> V20
+VP5PAST -> N5 VP5PAST
+VP5PAST -> NP VP5PAST
+VP5PAST -> PRON9 VP5PAST
+VP5PAST -> ADV0 VP5PAST
+VP5PAST -> ADJP VP5PAST
+VP5PAST -> V20
+VP3 -> PRON9 VP3
+VP3 -> ADV VP3
+VP3 -> NP POSTP VP3
+VP3 -> ADJP VP3
+VP3 -> N3 VP3
+VP3 -> N2 VP3
+VP3 -> N0 VP3
+VP3 -> N1 VP3
+VP3 -> N1 N0 VP3
+VP3 -> V10
+VP3PAST -> PRON9 VP3PAST
+VP3PAST -> ADV0 VP3PAST
+VP3PAST -> NP POSTP VP3PAST
+VP3PAST -> ADJP VP3PAST
+VP3PAST -> N3 VP3PAST
+VP3PAST -> N2 VP3PAST
+VP3PAST -> N0 VP3PAST
+VP3PAST -> N1 VP3PAST
+VP3PAST -> N1 N0 VP3PAST
+VP3PAST -> V10
+VP4 -> PRON9 VP4
+VP4 -> ADV VP4
+VP4 -> NP POSTP VP4
+VP4 -> ADJP VP4
+VP4 -> N3 VP4
+VP4 -> N2 VP4
+VP4 -> N0 VP4
+VP4 -> N1 VP4
+VP4 -> N1 N0 VP4
+VP4 -> V2
+VP4 -> V14
+VP0 -> PRON9 VP0
+VP0 -> ADV VP0
+VP0 -> NP POSTP VP0
+VP0 -> ADJP VP0
+VP0 -> N3 VP0
+VP0 -> N2 VP0
+VP0 -> N0 VP0
+VP0 -> N1 VP0
+VP0 -> N1 N0 VP0
+VP0 -> V3
+VP0 -> V12
+VP0PAST -> PRON9 VP0PAST
+VP0PAST -> ADV0 VP0PAST
+VP0PAST -> NP POSTP VP0PAST
+VP0PAST -> ADJP VP0PAST
+VP0PAST -> N3 VP0PAST
+VP0PAST -> N2 VP0PAST
+VP0PAST -> N0 VP0PAST
+VP0PAST -> N1 VP0PAST
+VP0PAST -> N1 N0 VP0PAST
+VP0PAST -> V3
+VP -> PRON9 VP
+VP -> ADV VP
+VP -> NP POSTP VP
+VP -> ADJP VP
+VP -> N3 VP
+VP -> N2 VP
+VP -> N0 VP
+VP -> N1 VP
+VP -> N1 N0 VP
+VP -> V2
+VP -> V12
+VP -> V13
+VP -> V14
+VP -> V3
+VP -> V4
+VP -> V5
+VP -> V9
+VP -> V10
+VPAST -> PRON9 VPAST
+VPAST -> ADV0 VPAST
+VPAST -> NP POSTP VP
+VPAST -> ADJP VPAST
+VPAST -> N3 VPAST
+VPAST -> N2 VPAST
+VPAST -> N0 VPAST
+VPAST -> N1 VPAST
+VPAST -> N1 N0 VPAST
+VPAST -> V3
+VPAST -> V4
+VPAST -> V5
+VPAST -> V9
+VPAST -> V10
+PP -> N9
+PP -> ADJP N9
+NP -> N0
+NP -> N1
+NP -> N2
+NP -> N3
+NP -> N4
+NP -> N5
+NP -> N0 N2
+NP -> N2 CONJ N2
+NP -> N5 ADJP
+NP -> PRON7 N1
+NP1 -> N0
+NP1 -> N2
+NP1 -> N4
+NP1 -> N0 N10 N0
+NP1 -> N0 N2
+NP1 -> N2 CONJ N2
+NP1 -> N5 ADJP
+NP2 -> N0
+NP2 -> N1
+NP2 -> N2
+NP2 -> N3
+NP2 -> N5
+NP2 -> N0 N2
+NP2 -> N2 CONJ N2
+NP2 -> N5 ADJP
+NP2 -> PRON7 N1
+NP3 -> N0
+NP3 -> N2
+NP3 -> N0 N10 N0
+NP3 -> N0 N2
+NP3 -> N2 CONJ N2
+NP3 -> N5 ADJP
+ADJP -> DET NP2
+ADJP -> DET NP3
+ADJP -> DET ADJ NP2
+ADJP -> DET ADJ NP3
+ADJP -> ADJ DET NP2
+ADJP -> ADJ DET NP3
+ADJP -> ADV ADJ
+ADJP -> ADV ADJ NP
+ADJP -> ADV ADJ NP1
+ADJP -> ADV0 ADJ
+ADJP -> ADV0 ADJ NP
+ADJP -> ADV0 ADJ NP1
+ADJP -> ADJ ADJ
+ADJP -> ADJ ADJ NP
+ADJP -> ADJ ADJ NP1
+ADJP -> ADV NP
+ADJP -> ADV NP1
+ADJP -> ADV0 NP
+ADJP -> ADV0 NP1
+ADJP -> ADJ NP
+ADJP -> ADJ NP1
+N0 -> 'hediye'
+N0 -> 'akşam'
+N0 -> 'yardım'
+N0 -> 'yaz'
+N0 -> 'karpuz'
+N0 -> 'gece'
+N0 -> 'son'
+N0 -> 'zaman'
+N0 -> 'orhun'
+N0 -> 'okul'
+N0 -> 'müzik'
+N0 -> 'kitap'
+N1 -> 'arkadaşıma'
+N1 -> 'anneme'
+N1 -> 'babama'
+N1 -> 'toplantıya'
+N1 -> 'buraya'
+N1 -> 'köye'
+N2 -> 'romanları'
+N2 -> 'yemeği'
+N2 -> 'kültürümüzü'
+N2 -> 'tarihimizi'
+N2 -> 'mehtabı'
+N2 -> 'yanı'
+N2 -> 'abideleri'
+N3 -> 'keyifle'
+N3 -> 'sesle'
+N4 -> 'destanlar'
+N4 -> 'romanlar'
+N5 -> 'ağacın'
+N5 -> 'anadolunun'
+N5 -> 'medeniyetin'
+N5 -> 'türkçenin'
+N9 -> 'altında'
+N10 -> 'meyvelerinden'
+PRON0 -> 'ben'
+PRON4 -> 'siz'
+PRON7 -> 'bizim'
+PRON9 -> 'bence'
+V0 -> 'edeceğim'
+V2 -> 'katılacak'
+V3 -> 'aldım'
+V3 -> 'ettim'
+V3 -> 'gittim'
+V3 -> 'okudum'
+V4 -> 'aldın'
+V5 -> 'okundu'
+V9 -> 'izlerdik'
+V10 -> 'geldiniz'
+V12 -> 'okuyorum'
+V13 -> 'dinleme'
+V14 -> 'anlatır'
+V20 -> 'uzaktaydı'
+V29 -> 'meyvedir'
+V29 -> 'beşiğidir'
+V29 -> 'örnekleridir'
+ADV -> 'en'
+ADV0 -> 'dün'
+ADV -> 'epeyce'
+ADJ -> 'akşamki'
+ADJ -> 'ilk'
+ADJ -> 'tarihi'
+ADJ -> 'yazılı'
+ADJ -> 'güzel'
+ADJ -> 'ne'
+ADJ -> 'yüksek'
+ADJ -> 'milli'
+ADJ -> 'dört'
+CONJ -> 've'
+QUES -> 'mısınız'
+POSTP -> 'için'
+DET -> 'her'
+DET -> 'bir'
+DET -> 'bu'

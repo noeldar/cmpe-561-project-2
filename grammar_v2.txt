@@ -1,21 +1,49 @@
-S -> NP1 V1
-S -> NP2 V1
-S -> PRON0 NP3 VP1
-NP1 -> ADV N1 ADJP
-NP2 -> ADJP N3
-NP3 -> ADV NP POSTP
-VP1 -> N1 VP
-ADJP -> ADJ N0
-ADJP -> ADJ N2
+S -> ADV NP VP
+S -> NP VP
+S -> NP NP VP
+S -> ADJP VP
+S -> PRON0 VP
+S -> NP PRON9 VP
+S -> ADJP VP QUES
+S -> PP ADVP VP
+S -> PRON4 NP VP
+VP -> N4 VP
+VP -> PP VP
+VP -> ADJ ADJ VP
+VP -> ADVP ADJP VP
+VP -> ADV VP
+VP -> ADJP VP
+VP -> N3 VP
+VP -> NP POSTP VP
+VP -> N1 VP
+VP -> N2 VP
+VP -> N0 VP
+VP -> ADV ADJ VP
+VP -> V1
+VP -> V0
+PP -> N8
+PP -> ADJP N8
+ADJP -> ADJ ADJ NP
+ADJP -> ADJ NP
+ADVP -> ADJ ADV
+NP -> N4 ADJP
+NP -> N0 N9 N0
+NP -> N2 CONJ N2
 NP -> N0 N2
-VP -> N0 V1
+NP -> PRON7 NP
+NP -> N1
+NP -> N0
+NP -> N2
+NP -> N3
+NP -> N4
 N0 -> 'hediye'
+N0 -> 'kitap'
 N0 -> 'akşam'
 N0 -> 'yardım'
 N0 -> 'destanlar'
+N0 -> 'romanlar'
 N0 -> 'yaz'
 N0 -> 'karpuz'
-N0 -> 'gece'
 N0 -> 'son'
 N0 -> 'zaman'
 N0 -> 'orhun'
@@ -25,6 +53,7 @@ N1 -> 'arkadaşıma'
 N1 -> 'anneme'
 N1 -> 'toplantıya'
 N1 -> 'buraya'
+N1 -> 'babama'
 N1 -> 'köye'
 N2 -> 'romanları'
 N2 -> 'yemeği'
@@ -40,6 +69,7 @@ N4 -> 'anadolunun'
 N4 -> 'medeniyetin'
 N4 -> 'türkçenin'
 N8 -> 'altında'
+N8 -> 'okulda'
 N9 -> 'meyvelerinden'
 PRON0 -> 'ben'
 PRON4 -> 'siz'
@@ -50,7 +80,13 @@ V0 -> 'beşiğidir'
 V0 -> 'örnekleridir'
 V0 -> 'uzaktaydı'
 V1 -> 'aldım'
+V1 -> 'aldın'
 V1 -> 'okuyorum'
+V1 -> 'okudum'
+V1 -> 'okundu'
+V1 -> 'gittim'
+V1 -> 'gittin'
+V1 -> 'edeceğim'
 V1 -> 'ettim'
 V1 -> 'anlatır'
 V1 -> 'katılacak'
@@ -60,6 +96,7 @@ V1 -> 'dinleme'
 ADV -> 'en'
 ADV -> 'dün'
 ADV -> 'epeyce'
+ADV -> 'gece'
 ADJ -> 'ilk'
 ADJ -> 'bir'
 ADJ -> 'dört'
